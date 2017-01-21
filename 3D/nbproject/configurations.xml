@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de cabeçalho"
+                   projectFiles="true">
+      <itemPath>ConvexHull.h</itemPath>
+      <itemPath>IntersectRayAABB.h</itemPath>
+      <itemPath>IntersectRayTriangle.h</itemPath>
+      <itemPath>KdTree.h</itemPath>
+      <itemPath>Node.h</itemPath>
+      <itemPath>Point2D.h</itemPath>
+      <itemPath>PointInPolygon.h</itemPath>
+      <itemPath>Ray.h</itemPath>
+      <itemPath>Render.h</itemPath>
+      <itemPath>Timer.h</itemPath>
+      <itemPath>Tipos.h</itemPath>
+      <itemPath>Vector2D.h</itemPath>
+      <itemPath>Vector3D.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de código-fonte"
+                   projectFiles="true">
+      <itemPath>ConvexHull.cpp</itemPath>
+      <itemPath>KdTree.cpp</itemPath>
+      <itemPath>Node.cpp</itemPath>
+      <itemPath>PointInPolygon.cpp</itemPath>
+      <itemPath>Ray.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de testes"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandLine>-Wall</commandLine>
+        </ccTool>
+        <linkerTool>
+          <commandLine>-lglut -lGL -lGLU -lm</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="ConvexHull.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConvexHull.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IntersectRayAABB.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IntersectRayTriangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KdTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KdTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PointInPolygon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PointInPolygon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Render.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tipos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vector2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vector3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <commandLine>-framework OpenGL -framework GLUT</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="ConvexHull.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConvexHull.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IntersectRayAABB.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IntersectRayTriangle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KdTree.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="KdTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PointInPolygon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PointInPolygon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Render.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Tipos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vector2D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Vector3D.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
