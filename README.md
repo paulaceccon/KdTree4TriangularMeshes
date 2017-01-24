@@ -1,16 +1,6 @@
 # KdTree4TriangularMeshes
 
-## 2D Folder
-A KdTree implementation for triangular 2D mesh.
-
-- Keys:
-  * d: Minus one depth
-  * D: Plus one depth
-  * v: View the whole kd-tree
-
----
-
-- Algorithm
+### Algorithm
 
 ```
 Node *buildKdTree(ini, end, triangles)
@@ -26,6 +16,13 @@ Node *buildKdTree(ini, end, triangles)
 ```
 
 ---
+
+## 2D Folder
+A KdTree implementation for triangular 2D mesh.
+- Keys:
+  * d: Minus one depth
+  * D: Plus one depth
+  * v: View the whole kd-tree
 
 - The Triangles:
 
